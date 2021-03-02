@@ -1,0 +1,25 @@
+.body {
+    margin: 40% 10px 0 10px;
+
+    p {
+        font-size: small;
+        margin-bottom: 20%;
+    }
+
+    ion-button {
+        text-transform: capitalize;
+        font-size: small;
+        --padding-top: 25px;
+        --padding-bottom: 25px;
+        margin-bottom: 7%;
+    }
+
+    .footer {
+        p{
+            color: gray;
+        }
+
+        position: absolute;
+        bottom: 1%;
+    }
+}
