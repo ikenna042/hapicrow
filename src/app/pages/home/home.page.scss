@@ -3,7 +3,7 @@ ion-toolbar {
   margin-top: 20px;
 
   ion-label {
-    color: black;
+    color: var(--ion-color-dark);
     font-weight: bolder;
   }
 
@@ -23,7 +23,7 @@ ion-toolbar {
     .card-head, ion-card-header {
       
       ion-label {
-        color: black;
+        color: var(--ion-color-dark);
         font-weight: bold;
       }
 
@@ -39,7 +39,7 @@ ion-toolbar {
 
       .card-body {
         ion-label {
-          color: black;
+          color: var(--ion-color-dark);
           font-size: x-large;
           font-weight: bolder;
         }
