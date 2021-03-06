@@ -1,0 +1,60 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+    <ion-title><h1>Create escrow request</h1></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="body">
+
+    <div class="wrap">
+      <ion-label> Who are you transacting with: </ion-label>
+      <ion-item class="wrap-input">
+        <ion-input class="input" placeholder="Enter second party's email"></ion-input>
+      </ion-item>
+    </div>
+
+    <div class="wrap">
+      <ion-label> Coin to be exchanged: </ion-label>
+      <ion-item class="wrap-input">
+        <ion-select interface="action-sheet" placeholder="Select Coin">
+          <ion-select-option value="btc">Bitcoin</ion-select-option>
+          <ion-select-option value="eth">Etherium</ion-select-option>
+        </ion-select>
+      </ion-item>
+    </div>
+
+    <div class="wrap">
+      <ion-label> How much you exchanging: </ion-label>
+      <ion-item class="wrap-input" style="width: 70%;">
+        <ion-input class="input" placeholder="Coin Value"></ion-input>
+      </ion-item>
+      <ion-item class="wrap-input" style="width: 70%;">
+        <ion-input class="input" placeholder="Dollar Value"></ion-input>
+      </ion-item>
+    </div>
+
+    <div class="wrap">
+      <ion-label> What wallet are you exchanging from </ion-label>
+      <ion-item class="wrap-input">
+        <ion-select interface="action-sheet" placeholder="Select wallet provider">
+          <ion-select-option value="btc">Bitcoin</ion-select-option>
+          <ion-select-option value="eth">Etherium</ion-select-option>
+        </ion-select>
+      </ion-item>
+    </div>
+
+    <div class="check">
+      <ion-row>
+        <ion-col size="1">
+          <ion-checkbox></ion-checkbox>
+        </ion-col>
+        <ion-col size="11">
+          <ion-label>I agree to terms and conditions</ion-label>
+        </ion-col>
+      </ion-row>
+    </div>
+
+    <ion-button expand="block" size="large">Initiate Transaction</ion-button>
+  </div>
+</ion-content>

@@ -1,16 +1,16 @@
-.body {
-    margin: 40% 10px 0 10px;
-
+ion-toolbar {
+    margin-top: 5%;
+    
     h1 {
+        color: var(--ion-color-dark);
         font-weight: bolder;
     }
+}
 
-    p {
-        font-size: small;
-        margin-bottom: 10%;
-    }
+.body {
+
+    margin: 7% 10px 0 10px;
     .wrap {
-
         margin-bottom: 20px;
 
         ion-label {
@@ -18,7 +18,7 @@
         }
         
         .wrap-input {
-            margin-top: 10px;
+            margin-top: 20px;
             background-color: rgba(255, 255, 255, .8);
             border-radius: 5px;
             border: gray 1px solid;
@@ -33,28 +33,18 @@
             outline: none;
             height: 46px;
             padding: 0 20px 0 20px; 
-          }
-
-          .forgot {
-              margin-top: 10px;
-              float: right;
-          }
-
-          
+        }  
     }
 
-    .btns {
-        // width: 100%;
-        margin-top: 20%;
-        ion-button {
-            color: white;
+    .check {
+        ion-label {
+            color: gray;
         }
-        p {
-            margin: 0 10px;
+       
+        ion-checkbox {
+            --checkmark-color: var(--ion-color-light);
         }
-     }
-
-    
+    }
 
     ion-button {
         text-transform: capitalize;
@@ -63,7 +53,11 @@
         --padding-bottom: 25px;
         margin-bottom: 7%;
         --background: var(--ion-color-primary);
+        color: var(--ion-color-light);
+        font-weight: bold;
     }
 
-
+    ion-select {
+        width: 100%;
+    }
 }
