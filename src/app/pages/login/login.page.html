@@ -29,12 +29,18 @@
         <ion-button expand="block" size="large">Login</ion-button>
       </ion-col>
       <ion-col size="2">
-        <ion-button>
-          <ion-icon slot="icon-only" name="finger-print-outline"></ion-icon>
+        <ion-button (click)="googleSignup()">
+          <ion-icon slot="icon-only" name="logo-google"></ion-icon>
         </ion-button>
       </ion-col>
       <p>Don't have an account? <strong>Register</strong></p>
     </ion-row>
+
+    <ion-card>
+      <ion-card-content>
+        {{ userInfo | json }}
+      </ion-card-content>
+    </ion-card>
       
   </div>
 </ion-content>

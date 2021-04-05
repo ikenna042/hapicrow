@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>669678449676-l5091sqjrhoppqq4dg2qu5rkqo9fj91q.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.669678449676-l5091sqjrhoppqq4dg2qu5rkqo9fj91q</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>669678449676-ed24fs6obeuj39v6f7ug1jh8uutfk5gc.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDA5zipt7J5JPDcxJEUV2tVk9kmadmmEFo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>669678449676</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.hapicrow.app</string>
+	<key>PROJECT_ID</key>
+	<string>hapi-123</string>
+	<key>STORAGE_BUCKET</key>
+	<string>hapi-123.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:669678449676:ios:271430de2a8d9774f2aa29</string>
+</dict>
+</plist>

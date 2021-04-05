@@ -1,5 +1,7 @@
 {
   "name": "hapicrow",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }

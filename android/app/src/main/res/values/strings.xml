@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">hapicrow</string>
+    <string name="title_activity_main">hapicrow</string>
+    <string name="package_name">com.hapicrow.app</string>
+    <string name="custom_url_scheme">com.hapicrow.app</string>
+    <string name="server_client_id">669678449676-ensj3mm0uj9len78sd6pcjfg4nsd6896.apps.googleusercontent.com</string>
+</resources>

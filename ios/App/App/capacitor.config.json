@@ -1,0 +1,18 @@
+{
+  "appId": "com.hapicrow.app",
+  "appName": "hapicrow",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    },
+    "GoogleAuth": {
+      "scopes": ["profile", "email"],
+      "serverClientId": "669678449676-ensj3mm0uj9len78sd6pcjfg4nsd6896.apps.googleusercontent.com",
+      "forceCodeForRefreshToken" : true
+    }
+  },
+  "cordova": {}
+}

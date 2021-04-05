@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "669678449676",
+    "project_id": "hapi-123",
+    "storage_bucket": "hapi-123.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669678449676:android:c66e9b5bf64330b1f2aa29",
+        "android_client_info": {
+          "package_name": "com.hapicrow.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "669678449676-ed24fs6obeuj39v6f7ug1jh8uutfk5gc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hapicrow.app",
+            "certificate_hash": "cf964e28081ae04d32c1d7760d7ff9b5ea3b5879"
+          }
+        },
+        {
+          "client_id": "669678449676-ensj3mm0uj9len78sd6pcjfg4nsd6896.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOqUDQZcVs7PUeg6dF3EYCjvtw39YC5Cw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "669678449676-ensj3mm0uj9len78sd6pcjfg4nsd6896.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
